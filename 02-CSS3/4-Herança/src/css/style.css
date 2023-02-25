@@ -1,0 +1,22 @@
+/*
+-Herança-
+
+div= tag pai
+
+div>h1+ul>li
+
+h1 + ul> li= tag filhos
+*/
+
+div {
+    color: limegreen;
+    border: 2px solid darkgreen;
+}
+
+div ul {
+    border: inherit;
+}
+
+ul li {
+    border: inherit; /* inherit = herdar */
+}

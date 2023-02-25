@@ -1,0 +1,34 @@
+/*
+1. Elemento H1 = Montserrat
+2. Elementos com a classe date = Roboto
+3. Elementos com a classe post-content = Open Sans
+
+Cores:
+1. Background dos posts = #fffafa
+2. Cor da data = #008080
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
+
+main {
+    width: 70%;
+    margin: auto;
+    background-color: #fff5f5;
+}
+
+.date {
+    color: #008080;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text {
+    padding-right: 80px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+div.Conteudo {
+    padding: 10px 0px 10px 30px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}

@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* melhora o padding e a margin */
+}
+
+.container {
+    background-color: darkgray;
+    min-height: 100vh;
+
+    display: flex; /* flex igual a flexbox */
+    gap: 10px;
+
+    justify-content: center; /* centralizaão horizontal */
+    align-items: center; /* centralizaão vertical */
+
+    /* 
+        -alongamento vertical-
+            align-items: stretch; (comentar ou excluir o height: ;)
+        
+        -alongamento horizontal-
+            flex-direction: column;
+            align-items: stretch; (comentar ou excluir o width: ;)
+
+    */
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+
+    border: 2px solid black;
+    background-color: aliceblue;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}

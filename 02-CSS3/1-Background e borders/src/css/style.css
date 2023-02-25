@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://s2.glbimg.com/o3IEB8vbwV1MIsws4k4t3I2Ny-s=/e.glbimg.com/og/ed/f/original/2020/05/26/falcon_heavy_demo_mission_40126461851.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 96vh;
+}
+
+h1 {
+    color: #ae00ff;
+
+    border: 1px dashed yellow;
+
+    /* 
+    -simplificado-
+
+    border: 1px dashed yellow;
+
+    border-width: 1px;
+    border-style: dashed;
+    border-color: yellow;
+
+    */
+}
+
+span {
+    background-color: #6575ff;
+}
+
+h2 {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+ul > li {
+    color: lightgreen;
+}

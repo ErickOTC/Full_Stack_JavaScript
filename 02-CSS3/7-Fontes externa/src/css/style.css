@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2? family= Babylonica & family= Playfair+Display:wght@400;900 & family= Roboto:ital,wght@0,100;1,900 & family= Zeyada & display=swap');
+
+/*
+font-family: 'Babylonica', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Zeyada', cursive;
+*/
+
+h1 {
+    font-family: 'Zeyada', cursive;
+}
+
+p {
+    font-family: 'Babylonica', cursive;
+}

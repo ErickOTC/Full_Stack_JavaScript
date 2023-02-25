@@ -1,0 +1,10 @@
+div {
+    width: 150px;
+    height: 150px;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+span {
+    background-color: greenyellow;
+}

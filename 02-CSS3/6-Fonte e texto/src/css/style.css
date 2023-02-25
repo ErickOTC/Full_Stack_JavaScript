@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; /* estilo de fonte */
+    font-weight: 100; /* peso da fonte */
+    line-height: 2em; /* espaçamento */
+    text-align: left; /* alinhamento de texto */
+}
+
+p {
+    font-size: 18px; /* tamanho da fonte */
+}
+
+h1 {
+    text-decoration: line-through;
+}

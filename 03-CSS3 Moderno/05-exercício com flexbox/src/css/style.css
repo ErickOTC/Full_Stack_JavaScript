@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    background-color: black;
+    height: 70px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0px 30px;
+}
+
+.cabesalho {
+    width: auto;
+    height: 6vh;
+}
+
+.BotoesNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BotaoNav {
+    color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+    padding: 4px;
+    margin: 4px;
+}
