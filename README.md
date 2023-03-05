@@ -4,6 +4,6 @@
     escola: Onebitcode
 </p>
 
-<a href="https://erickotc.github.io/Full_Stack_JavaScript/03-CSS3 Moderno/08-exercício com flexbox v2/index.html" target="_blank">Responsividade</a>
+<a href="https://github.com/ErickOTC/Full_Stack_JavaScript/tree/main/03-CSS3%20Moderno/08-exerc%C3%ADcio%20com%20flexbox%20v2" target="_blank">Responsividade</a>
 
-<a href="https://erickotc.github.io/03-CSS3 Moderno/05-exercício com flexbox/index.html" target="_blank">CabeÇalho</a>
+<a href="https://github.com/ErickOTC/Full_Stack_JavaScript/blob/main/03-CSS3%20Moderno/05-exerc%C3%ADcio%20com%20flexbox/" target="_blank">Cabeçalho</a>
