@@ -21,7 +21,7 @@
 
     /* grid-template-rows: repeat(3, 1fr); //linhas */
 
-    grid-auto-rows: minmax(210px, auto); /* minimo e máximo */
+    grid-auto-rows: minmax(210px, 100%); /* linhas com o minimo e máximo do tamanho */
 
 }
 
