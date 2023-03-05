@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* melhora o padding e a margin */
+}
+
+.container {
+    background-color: gray;
+    min-height: 100vh;
+    display: grid; /* busca preencher toda a tela */
+
+    grid-template-columns: repeat(3, 1fr); /* colunas */
+    /* repitir 3 colunas de 1 frame */
+
+    /*
+    grid-template-columns: 1fr 1fr 1fr ; 
+    // colunas porcentagem ou frames (vh) 
+    */
+
+    gap: 10px 15px; /* linhas colunas */
+
+    /* grid-template-rows: repeat(3, 1fr); //linhas */
+
+    grid-auto-rows: minmax(210px, auto); /* minimo e máximo */
+
+}
+
+.bloco {
+    background-color: white;
+    border: 2px solid black;
+    font-size: 20px;
+    padding: 10px;
+}

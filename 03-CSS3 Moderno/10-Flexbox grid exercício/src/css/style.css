@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* melhora o padding e a margin */
+}
+
+.container {
+    background-color: darkgray;
+    min-height: 100vh;
+    display: grid;
+
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    grid-auto-rows: minmax(210px, auto); 
+    /* minimo e máximo */
+    gap: 10px 15px;
+}
+
+.bloco {
+    background-color: white;
+    border: 2px solid black;
+    font-size: 20px;
+    padding: 10px;
+}
