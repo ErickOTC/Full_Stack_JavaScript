@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* melhora o padding e a margin */
+}
+
+.container {
+    background-color: gray;
+    min-height: 100vh;
+}
+
+.bloco {
+    background-color: white;
+    border: 2px solid black;
+    font-size: 20px;
+    padding: 10px;
+}
