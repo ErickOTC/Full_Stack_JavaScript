@@ -25,7 +25,7 @@
     display: grid;
     margin: 10px;
     gap: 5px;
-    
+
     grid-auto-rows: minmax(120px, auto); /* altura min e max */
 
     grid-template-areas: 
@@ -42,24 +42,54 @@
 
 .item01{
     grid-area: item1;
+    min-width: 250px;
 }
 
 .item02{
     grid-area: item2;
+    min-width: 250px;
 }
 
 .item03{
     grid-area: item3;
+    min-width: 250px;
 }
 
 .item04{
     grid-area: item4;
+    min-width: 250px;
 }
 
 .item05{
     grid-area: item5;
+    min-width: 250px;
 }
 
 .item06{
     grid-area: item6;
+    min-width: 250px;
+}
+
+@media(max-width:780px) {
+    .main-content {
+        grid-template-areas: 
+        "item1 item2"
+        "item3 item6"
+        "item4 item4"
+        "item5 item5"
+        ;
+    }
+}
+
+@media(max-width:530px) {
+    .main-content {
+        grid-template-areas: 
+        "item1"
+        "item2"
+        "item3"
+        "item4"
+        "item5"
+        "item6"
+        ;
+    }
 }
