@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* melhora o padding e a margin */
+}
+
+.container {
+    background-color: gray;
+    min-height: 100vh;
+    display: grid; /* preenchetoda a tela */
+    grid-template-columns: repeat(3, 1fr); /* fr ou % */
+    gap: 10px 15px; /* espaçamento entre objetos */
+    grid-auto-rows: minmax(210px, auto); /* altura min e max */
+}
+
+.bloco {
+    background-color: white;
+    border: 2px solid black;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.item01 {
+    grid-column: 1/4;
+}
+
+.item02 {
+    grid-column: 1/3;
+}
+
+.item05 {
+    grid-column: 2/4;
+}
+
+.item06 {
+    grid-column: 1/3; /* linhas/ horizontal*/
+    grid-row: 4/7; /* colunas/ vertical */
+}
+
+.item08 {
+    grid-column: 3/4;
+    grid-row: 5/7;
+}
+
+.item09 {
+    grid-column: 1/4;
+}

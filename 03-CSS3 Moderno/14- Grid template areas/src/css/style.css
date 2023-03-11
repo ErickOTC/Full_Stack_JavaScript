@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* melhora o padding e a margin */
+}
+
+.container {
+    background-color: gray;
+    min-height: 100vh;
+    display: grid; /* preenchetoda a tela */
+    grid-template-columns: repeat(3, 1fr); /* fr ou % */
+    gap: 10px 15px; /* espaçamento entre objetos */
+    grid-auto-rows: minmax(80px, auto); /* altura min e max */
+
+    grid-template-areas:
+    "item01 item01 item01"
+    "item02 item02 item03" 
+    "item02 item02 item04"
+    "item05 item05 item05"
+    "item05 item05 item05"
+    "item06 item07 item07" 
+    "item08 item07 item07"
+    "item09 item09 item09"
+    ;
+}
+
+.bloco {
+    background-color: white;
+    border: 2px solid black;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.item01{
+    grid-area: item01;
+}
+
+.item02{
+    grid-area: item02;
+}
+
+.item03{
+    grid-area: item03;
+}
+
+.item04{
+    grid-area: item04;
+}
+
+.item05{
+    grid-area: item05;
+}
+
+.item06{
+    grid-area: item06;
+}
+
+.item07{
+    grid-area: item07;
+}
+
+.item08{
+    grid-area: item08;
+}
+
+.item09{
+    grid-area: item09;
+}
